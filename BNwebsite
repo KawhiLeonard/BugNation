@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BugNation</title>
+  <script>
+    //把0-100中所有的奇数放在一个数组里面
+    var aNumList = [];
+    var j = 0;
+    for( var i = 0; i <= 100; i++ ) {
+      if( i % 2 != 0 ) {
+        aNumList[j] = i;
+        j++;
+      }
+    }
+    console.log(aNumList);
+  </script>
+</head>
+</html>

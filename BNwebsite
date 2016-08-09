@@ -5,11 +5,15 @@
   <title>BugNation</title>
   <script>
     //把0-100中所有的奇数放在一个数组里面
+    //定义一个空数组，用来存放所有奇数
     var aNumList = [];
+    //声明一个变量，初始化数组的下标
     var j = 0;
     for( var i = 0; i <= 100; i++ ) {
+      //判断数字是否是奇数
       if( i % 2 != 0 ) {
         aNumList[j] = i;
+        //数组下标
         j++;
       }
     }
